@@ -30,7 +30,8 @@ luci-app-arpbind luci-app-eqos \
 luci-app-openvpn-server luci-app-pptp-server \
 luci-app-accesscontrol luci-app-cpulimit \
 luci-app-wifischedule luci-app-uhttpd xl2tpd \
-luci-app-syncdial luci-app-easymesh
+luci-app-syncdial luci-app-easymesh \
+luci-app-frpc
 
 ifneq ($(CONFIG_DEFAULT_WITHOUT_NAS_PACKAGES),1)
 DEFAULT_PACKAGES += block-mount automount fdisk lsblk \
